@@ -1,0 +1,172 @@
+* {
+	box-sizing: border-box;
+}
+
+/*Every .html page styling*/
+
+body {
+	background-image: url("organic-tiles.png");
+	background-color: #ccc;	
+
+}
+
+#header {
+	position: absolute;
+	background: #fff;
+	border: 2px solid black;
+	border-color: #ccc;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 82px;
+	
+	
+}
+
+#h1 {
+	
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	border: 1px solid black;
+	border-color: #4aaaa5;
+	padding: 20px;
+	margin-left: 10%;
+	margin-top: 0;
+	margin-right: 75%;
+	margin-bottom: 0;
+	color: #fff;
+
+}
+
+#menu {
+	position: absolute;
+	right: 20%; 
+	top: 5px;
+	color: #ccc;
+}
+
+.menu2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #ccc;
+	padding: 10px;
+}
+
+#h2-1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	
+}
+
+#connect {
+	border: 1px solid black;
+	border-color: #fff;
+	background: #fff;
+	position: absolute;
+	padding: 20px;
+	text-align: center;
+	top: 125px;
+	right: 20%;
+	width: 270px;
+}	
+
+#logo {
+	height: 50px;
+	width: 50px;
+}
+
+#footer {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background: #666;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border: 5px solid black;
+	border-color: #4aaaa5;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 0px;
+
+}
+
+/*index.html styling*/
+
+#wrapper {
+	border: 1px solid black;
+	border-color: #ddd;
+	background: #fff;
+	width: 1000px;
+	height: 650px;
+	margin-left: 10%;
+	margin-top: 125px;
+	padding: 20px;
+}
+
+#me {
+	float: left;
+	width: 250px;
+	height: 250px;
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+
+#p{ 
+	position: relative;
+	left: 30px;
+	right: 10px;
+	top: -10px;
+	padding: 20px;
+	font-size: 20px;
+	line-height: 200%;
+ }
+
+#p2 {
+	position: relative;
+	left: 30px;
+	top: -60px;
+	padding: 20px;
+	font-size: 20px;
+	line-height: 200%;
+}
+
+#line {
+	margin: 0 auto;
+	background-color: #DCDCDC;
+	border: 0 none;
+	height: 2px;
+}
+
+#h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	position: relative;
+	left: 25px;
+}
+
+/*contact.html styling*/
+
+input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin:8px 0;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+#message {
+	height: 250px;
+}
+
+input[type=submit] {
+	width: 100%;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	cursor: pointer;
+}
+	
+	
