@@ -5,7 +5,7 @@
 /*Every .html page styling*/
 
 body {
-	background-image: url("organic-tiles.png");
+	background-image: url('organic-tiles.png');
 	background-color: #ccc;
 	width: 100%;
 	height: 100%;
@@ -52,7 +52,7 @@ body {
 	padding: 10px;
 }
 
-#h2-1 {
+.h2-1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	
@@ -62,11 +62,11 @@ body {
 	border: 1px solid black;
 	border-color: #fff;
 	background: #fff;
-	position: absolute;
+	position: relative;
 	padding: 20px;
 	text-align: center;
-	top: 125px;
-	right: 20%;
+	top: -500px;
+	left: 60%;
 	width: 270px;
 }	
 
@@ -84,6 +84,8 @@ body {
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	right: 0;
+	bottom: 0;
 	border: 5px solid black;
 	border-color: #4aaaa5;
 	border-right: 0px;
@@ -95,13 +97,14 @@ body {
 /*index.html styling*/
 
 #wrapper {
+	position: relative;
 	border: 1px solid black;
 	border-color: #ddd;
 	background: #fff;
-	width: 1000px;
-	height: 650px;
-	margin-left: 10%;
-	margin-top: 125px;
+	width: 650px;
+	height: 550px;
+	left: 10%;
+	top: 100px;
 	padding: 20px;
 }
 
@@ -110,27 +113,29 @@ body {
 	width: 250px;
 	height: 250px;
 	position: relative;
-	top: 10px;
+	top: 25px;
 	left: 20px;
 }
 
-#p{ 
+.p{ 
 	position: relative;
 	left: 30px;
 	right: 10px;
-	top: -10px;
+	top: 10px;
 	padding: 20px;
-	font-size: 20px;
-	line-height: 200%;
+	font-size: 15px;
+	line-height: 150%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
  }
 
-#p2 {
+.p2 {
 	position: relative;
 	left: 30px;
-	top: -60px;
+	top: -40px;
 	padding: 20px;
-	font-size: 20px;
-	line-height: 200%;
+	font-size: 15px;
+	line-height: 150%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #line {
@@ -145,6 +150,7 @@ body {
 	color: #4aaaa5;
 	position: relative;
 	left: 25px;
+	top: 5px;
 }
 
 /*contact.html styling*/
@@ -158,7 +164,7 @@ input[type=text], select {
 }
 
 #message {
-	height: 250px;
+	height: 200px;
 }
 
 input[type=submit] {
