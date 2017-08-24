@@ -208,17 +208,47 @@ body {
 	left: 10%;
 }
 
+.h2-2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	position: relative;
+	top: 15px;
+	left: 25px;
+	font-size: 30px;
+}
+
 input[type=text], select {
-	width: 80%;
+	width: 90%;
 	padding: 12px 20px;
-	margin: 8px 0;
-	display: inline-block;
-	box-sizing: border-box;
+	margin: 20px 0;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+label {
+	position: relative;
+	margin: 25px 0;
+	top: 20px;
+	left: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#name {
+	top: 60px;
+	left: -25px;
+}
+
+#email {
+	top: 60px;
+	left: -25px;
 }
 
 #message {
 	height: 200px;
+	position: relative;
+	top: 0px;
+	left: 20px;
 }
 
 input[type=submit] {
@@ -231,19 +261,21 @@ input[type=submit] {
 	text-align: center;
 	border: 0 none;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	position: relative;
+	top: 40px;
+	left: 20px;
 }
 
 /*Portfolio Styling*/
 
 #wrap {
-	height: 600px;
+	height: 700px;
 	width: 600px;
 	position: relative;
 	top: 100px;
 	left: 10%;
 	background-color: #fff;
 }
-
 
 .pic {
 	position: absolute;
@@ -252,27 +284,27 @@ input[type=submit] {
 }
 
 .pic1 {
-	top: 12%;
+	top: 15%;
 	left: 4%;
 }
 
 .pic2 {
-	top: 40%;
+	top: 43%;
 	left: 4%;
 }
 
 .pic3 {
-	top: 68%;
+	top: 71%;
 	left: 4%;
 }
 
 .pic4 {
-	top: 12%;
+	top: 15%;
 	right: 4%;
 }
 
 .pic5 {
-	top: 40%;
+	top: 43%;
 	right: 4%;
 }
 
@@ -290,26 +322,26 @@ input[type=submit] {
 }
 
 .l1 {
-	top: 27%;
+	top: 30.5%;
 	left: 4%;
 }
 
 .l2 {
-	top: 55%;
+	top: 58.5%;
 	left: 4%;
 }
 
 .l3 {
-	top: 83%;
+	top: 86.5%;
 	left: 4%;
 }
 
 .l4 {
-	top: 27%;
+	top: 30.5%;
 	right: 4%;
 }
 
 .l5 {
-	top: 55%;
+	top: 58.5%;
 	right: 4%;
 }
